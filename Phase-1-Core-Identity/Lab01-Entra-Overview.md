@@ -6,6 +6,8 @@
  ## Goal
 To understand the structure of Microsoft Entra ID, including tenants, users, roles, and applications, and to become familiar with the Entra admin center interface used for identity and access management.
 
+## Why this lab matters:
+Understanding the Entra ID environment is essential before managing identities, access, or security policies.
 
 
 ## Lab Environment
