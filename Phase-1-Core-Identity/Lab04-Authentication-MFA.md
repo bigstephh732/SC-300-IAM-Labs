@@ -1,5 +1,5 @@
 
-## SC-300 — Lab 4: Authentication Methods & MFA
+# SC-300 — Lab 4: Authentication Methods & MFA
 
 ## Phase: Phase 1 – Core Identity Foundation
 Goal
