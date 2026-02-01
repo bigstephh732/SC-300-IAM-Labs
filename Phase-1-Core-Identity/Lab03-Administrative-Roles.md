@@ -1,7 +1,8 @@
 ## SC-300 — Lab 3: Administrative Roles & Least Privilege
 
 ## Phase: Phase 1 – Core Identity Foundation
-Goal
+
+## Goal
 
 To understand Microsoft Entra administrative roles, apply the principle of least privilege, and safely assign limited administrative access without using Global Administrator unnecessarily.
 
