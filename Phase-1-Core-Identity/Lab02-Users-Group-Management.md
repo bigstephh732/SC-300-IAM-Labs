@@ -48,7 +48,7 @@ Users represent individual identities that authenticate to Entra ID.
 Purpose:
 Verify that users were created successfully and are cloud-only identities.
 
-⸻
+
 
 ## Step 3: Create Security Groups
 	1.	Navigate to Entra ID → Groups
@@ -70,7 +70,7 @@ Group 2
 Purpose:
 Security groups are used to assign access and policies at scale.
 
-⸻
+
 
 ## Step 4: Review Group Membership
 	1.	Open the IAM-Users group
