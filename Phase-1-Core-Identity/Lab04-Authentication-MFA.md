@@ -107,8 +107,9 @@ This distinction matters.
 	•	Authentication methods ≠ Conditional Access
 	•	Users can authenticate only using enabled methods
 
-	## Screenshoots Include:
-  1.	Authentication methods overview page
+	
+## Screenshoots Include:
+ 	 1.	Authentication methods overview page
 	2.	Microsoft Authenticator enabled
 	3.	Temporary Access Pass enabled
 	4.	User authentication methods page
