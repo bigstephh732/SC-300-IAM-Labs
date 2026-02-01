@@ -27,10 +27,12 @@ To create cloud-based users and security groups in Microsoft Entra ID and unders
 ## Step 1: Create Cloud Users
 	1.	Navigate to Entra ID → Users
 	2.	Select New user → Create new user
+
 Display Name	Username	Purpose
-Lab User 1	lab-user1@tenant.onmicrosoft.com	Standard user
-Lab User 2	lab-user2@tenant.onmicrosoft.com	Standard user
-Lab Admin	lab-admin@tenant.onmicrosoft.com	Admin test user
+Lab User 1	lab-user1@soclab2026.onmicrosoft.com	Standard user
+Lab User 2	lab-user2@soclab2026.onmicrosoft.com	Standard user
+Lab Admin	lab-admin@soclab2026.onmicrosoft.com	Admin test user
+
 4.	Record temporary passwords for testing.
 
 Purpose:
