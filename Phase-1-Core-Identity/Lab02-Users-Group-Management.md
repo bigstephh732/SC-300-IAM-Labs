@@ -11,6 +11,8 @@ Phase 1: Core Identity Foundation
 
 To create cloud-based users and security groups in Microsoft Entra ID and understand how group-based access management is used to scale identity and access control in enterprise environments.
 
+## Why this lab matters:
+Users and groups are the foundation of identity management and are used to scale access securely.
 
 
 ## Lab Environment
