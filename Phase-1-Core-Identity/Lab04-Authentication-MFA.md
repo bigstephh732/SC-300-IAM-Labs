@@ -8,12 +8,7 @@ To configure authentication methods in Microsoft Entra ID, enable Multi-Factor A
 
 
 ## Why this lab matters
-
-Most real breaches happen because of:
-	•	Password-only authentication
-	•	Weak credentials
-	•	Stolen usernames
-
+Strong authentication protects identities and reduces the risk of credential-based attacks.
 MFA is the single most effective identity security control.
 
 
