@@ -103,7 +103,7 @@ This distinction matters.
 	•	Users can authenticate only using enabled methods
 
 	
-## Screenshoots Include:
+## Screenshots Include:
  	 1.	Authentication methods overview page
 	2.	Microsoft Authenticator enabled
 	3.	Temporary Access Pass enabled
