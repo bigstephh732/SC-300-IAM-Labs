@@ -96,7 +96,7 @@ Understand the difference between application creation and application usage.
 
 	
 	
-## Screenshoots Include:
+## Screenshots Include:
 
 	1. User profile
 	2. User groups
