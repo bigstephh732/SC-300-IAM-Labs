@@ -90,7 +90,7 @@ Group membership determines access and policy scope.
 	•	How group membership simplifies identity lifecycle management
 
 
-## SCrrenshoots Include:
+## Screenshoots Include:
 
 	1.	Users list showing created users
 	2.	Individual user profile page
