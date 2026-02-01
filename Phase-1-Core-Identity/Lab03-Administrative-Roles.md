@@ -92,27 +92,19 @@ Understand clearly:
 This is security fundamentals.
 
 
-
-## Screenshots Include:
-
-	1.	Roles & administrators page
-	2.	User Administrator role page
-	3.	Role assignment screen
-	4.	lab-admin assigned roles page
-
-
-
-lab03-roles-admins.png
-lab03-user-admin-role.png
-lab03-role-assignment.png
-lab03-user-assigned-roles.png
-
-
 ## What You Learned
 	•	Difference between users, groups, and roles
 	•	Administrative roles define what actions an admin can perform
 	•	Global Administrator should be highly restricted
 	•	Least privilege reduces security risk
 	•	Roles should match job responsibility
+
+	
+## Screenshots Include:
+
+	1.	Roles & administrators page
+	2.	User Administrator role page
+	3.	Role assignment screen
+	4.	lab-admin assigned roles page
 
 
