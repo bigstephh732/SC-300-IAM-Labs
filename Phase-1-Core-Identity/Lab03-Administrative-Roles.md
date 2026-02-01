@@ -6,6 +6,9 @@
 
 To understand Microsoft Entra administrative roles, apply the principle of least privilege, and safely assign limited administrative access without using Global Administrator unnecessarily.
 
+## Why this lab matters
+Limiting administrative privileges reduces security risk and supports least-privilege access.
+
 
 ## Lab Environment
 	•	Microsoft Entra ID (cloud-only tenant)
