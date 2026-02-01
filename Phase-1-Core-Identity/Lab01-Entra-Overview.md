@@ -20,7 +20,7 @@ To understand the structure of Microsoft Entra ID, including tenants, users, rol
 	1.	Sign in to https://entra.microsoft.com
 	2.	Confirm successful access to the Entra admin portal
 
-⸻
+
 
 ## Step 2: Review Tenant Overview
 	1.	Navigate to Entra ID → Overview
@@ -33,7 +33,7 @@ To understand the structure of Microsoft Entra ID, including tenants, users, rol
 Purpose:
 Understand that a tenant represents the organization’s identity boundary.
 
-⸻
+
 
 ## Step 3: Explore Users
 	1.	Navigate to Entra ID → Users
@@ -91,4 +91,16 @@ Understand the difference between application creation and application usage.
 	•	App registrations (application identity)
 	•	Enterprise applications (access and SSO)
 	•	Microsoft Entra ID centrally manages authentication and authorization.
+
+	
+	
+## Screenshoots Include:
+
+	1. User profile
+	2. User groups
+	3. Roles-admins
+	4. Groups
+	5. Entra overview
+	6. entra homepage
+	7. Enterprise apps
 
