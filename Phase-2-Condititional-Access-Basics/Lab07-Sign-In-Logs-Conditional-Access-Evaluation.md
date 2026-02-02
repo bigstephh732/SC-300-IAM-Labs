@@ -78,3 +78,18 @@ When a user reports access issues, administrators typically:
 	4.	Identify failure reason or applied control
 
 This is the standard troubleshooting workflow.
+
+### What You Learned
+How to access and interpret sign-in logs
+How Conditional Access decisions are recorded
+How to identify why MFA was required or skipped
+How to troubleshoot login issues
+Why logs are essential for IAM operations
+
+## Screenshots Include:
+Signin-logs
+Signin-overview
+Ca-tab
+Auth-details
+
+
