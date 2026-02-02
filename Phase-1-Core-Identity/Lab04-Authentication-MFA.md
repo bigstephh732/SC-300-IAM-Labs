@@ -104,7 +104,7 @@ This distinction matters.
 
 	
 ## Screenshots Include:
- 	 1.	Authentication methods overview page
+ 	1.	Authentication methods overview page
 	2.	Microsoft Authenticator enabled
 	3.	Temporary Access Pass enabled
 	4.	User authentication methods page
