@@ -8,7 +8,7 @@ To understand how Multi-Factor Authentication (MFA) is enforced using Conditiona
 
 ### Why this lab matters
 Microsoft no longer recommends per-user MFA.
-Conditional Access is the preferred and scalable way to enforce MFA.
+Conditional Access is the preferred and scalable way to enforce MFA. Microsoft strongly recommends Conditional Access for MFA enforcement due to its flexibility, scalability, and Zero Trust alignment.
 This lab teaches:
 How MFA is applied dynamically
 Why scope and exclusions are critical
