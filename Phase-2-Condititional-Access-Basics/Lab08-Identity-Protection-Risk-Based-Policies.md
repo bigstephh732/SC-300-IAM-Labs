@@ -63,8 +63,8 @@ Review default or available policies, such as:
 Sign-in risk policy
 User risk policy
 Understand typical actions:
-Require MFA
-Require password change
+Require MFA,
+Require password change,
 Block access
 
 
