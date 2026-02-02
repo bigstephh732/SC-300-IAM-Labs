@@ -71,5 +71,19 @@ Block access
 ### Step 6 — Understand Identity Protection Integration
 Key concept:
 Identity Protection feeds risk signals into Conditional Access to enforce automated security responses.
-This is a core Zero Trust principle.
+*This is a core Zero Trust principle.
+
+### What You Learned
+-Identity Protection detects risky behavior automatically
+-Difference between sign-in risk and user risk
+-Risk levels influence access decisions
+-Risk policies automate responses
+-Identity Protection integrates with Conditional Access
+
+
+### Screenshot Include:
+-Identity Protection overview
+-Risky sign-ins page
+-Risky users page
+-Risk policies page
 
