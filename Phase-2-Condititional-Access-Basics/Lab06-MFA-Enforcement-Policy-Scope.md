@@ -67,7 +67,7 @@ Benefits:
 
 
 
-## Step3 Intended MFA Policy Design (No Enforcement)
+## Step 3 Intended MFA Policy Design (No Enforcement)
 
 ### Policy Name (Design Only)
 
