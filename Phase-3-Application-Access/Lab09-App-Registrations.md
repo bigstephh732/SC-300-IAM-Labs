@@ -75,4 +75,18 @@ Application permissions → App acts independently
 Key concept (exam critical):
 An app registration defines the application.
 A service principal represents the app inside a tenant.
-You’ll see the service principal later in Enterprise Applications (Lab 10).
+
+
+### Screenshots Include:
+App registrations list
+App overview page
+Certificates & secrets page
+API permissions page
+
+
+### What You Learned
+Applications have identities in Entra ID
+App registrations define application identity
+Apps authenticate using secrets or certificates
+Permissions control what apps can access
+Service principals represent apps in tenants
