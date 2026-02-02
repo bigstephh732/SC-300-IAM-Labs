@@ -46,33 +46,57 @@ This logic is critical for the exam.
 
 
 ## Step 3 — Create a Basic Conditional Access Policy
-Click Create new policy
-Policy Name
-CA-Require-MFA-for-Lab-Users
-Assignments — Users
-Include:
-Select users and groups
-Choose group: IAM-Users
-Exclude:
-None (for lab simplicity)
-✅ Best practice: Always target groups, not individual users.
-Assignments — Cloud Apps
-Select: All cloud apps
-This means:
-Policy applies to any app the user accesses
-Conditions
-Skip all conditions for now (leave defaults).
-📘 This lab focuses on basic enforcement, not advanced logic.
-Access Controls
-Grant access
-Require multi-factor authentication
-Select Require MFA
-Save
-Enable Policy
-Set:
-Enable policy: On
-⚠️ In production you might use Report-only first, but for lab we enable it.
 
+### Policy Design Overview
+
+Intended Policy Name:
+CA-Require-MFA-for-IAM-Users
+
+### Policy Objective
+
+Require Multi-Factor Authentication for all users in the IAM-Users group when accessing any cloud application.
+
+### Policy Design Details
+
+### Assignments — Users
+	•	Include:
+	•	Security group: IAM-Users
+	•	Exclude:
+	•	Administrative accounts (best practice, not enforced in lab)
+
+(Rationale: Group-based targeting allows policies to scale and simplifies onboarding and offboarding.)
+
+
+
+### Assignments — Cloud Apps
+	•	Include:
+	•	All cloud apps
+
+(Rationale:
+Ensures MFA is enforced consistently across Microsoft 365 and third-party applications.)
+
+
+### Conditions
+	•	No additional conditions applied in this basic policy design.
+
+(Rationale:
+This lab focuses on foundational Conditional Access enforcement before introducing advanced conditions such as device compliance, location, or sign-in risk.)
+
+
+## Access Controls (Grant)
+	•	Grant access
+	•	Require multi-factor authentication
+
+(Rationale:
+MFA significantly reduces the risk of credential-based attacks while maintaining user access.)
+
+
+### Policy State
+	•	Enabled
+
+(Rationale:
+In a production environment, policies may be deployed in report-only mode first.
+For this lab, the intended state is enabled to demonstrate enforcement logic.)
 
 
 ## Step 4 — Review Policy
@@ -83,7 +107,6 @@ Grant = Require MFA
 State = On
 
 
-
 ## Step 5 — Understand the Impact
 Now understand clearly:
 Users in IAM-Users must use MFA
@@ -92,30 +115,19 @@ Access decisions are evaluated at sign-in
 This is dynamic security.
 
 
+## What You Learned
+-Conditional Access evaluates access at sign-in
+-Policies are based on conditions and controls
+-Group-based targeting is best practice
+-MFA can be enforced dynamically
+-Conditional Access supports Zero Trust principles
+
 
 ## Screenshots Include:
-Save under:
-screenshots/lab05/
-Take the following:
-Conditional Access policies list
-Policy assignments (Users & groups)
-Cloud apps selection
-Grant controls (Require MFA)
-Policy overview page
-Suggested filenames:
-lab05-ca-policies.png
-lab05-ca-users-groups.png
-lab05-ca-cloud-apps.png
-lab05-ca-grant-controls.png
-lab05-ca-policy-overview.png
+Conditional Access Overview page
+Conditional Access policies page (policy creation restricted)
 
 
-## What You Learned
-Conditional Access evaluates access at sign-in
-Policies are based on conditions and controls
-Group-based targeting is best practice
-MFA can be enforced dynamically
-Conditional Access supports Zero Trust principles
 
 
 
