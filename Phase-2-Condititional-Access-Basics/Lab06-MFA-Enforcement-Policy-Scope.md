@@ -70,22 +70,14 @@ Conditions are checked
 Grant controls are enforced
 Access is allowed or blocked
 This logic is tested heavily on SC-300.
-📸 Screenshots for Lab 6
-Save under:
-screenshots/lab06/
-Take the following screenshots:
-Conditional Access policies list
-MFA policy overview page
-Users & groups assignment screen
-Exclusions showing IAM-Admins
-Grant controls showing “Require MFA”
-Suggested filenames:
-lab06-ca-policies.png
-lab06-ca-policy-overview.png
-lab06-ca-users-scope.png
-lab06-ca-exclusions.png
-lab06-ca-grant-controls.png
-📘 What You Learned
+
+
+### Screenshots Included:
+
+
+
+
+### What You Learned
 MFA should be enforced using Conditional Access
 Group-based targeting simplifies MFA management
 Exclusions prevent administrative lockout
