@@ -77,21 +77,6 @@ Enterprise applications manage SSO configuration.
 (No configuration required for this lab.)
 
 
-### Screenshots Included:
-Enterprise applications list
-Enterprise application overview
-Users and groups assignment page
-Assigned group (IAM-Users)
-Single Sign-On options page
-
-Suggested filenames:
-lab10-enterprise-apps.png
-lab10-enterprise-app-overview.png
-lab10-users-groups.png
-lab10-group-assigned.png
-lab10-sso-options.png
-
-
 ### What You Learned
 Enterprise applications represent apps in use within a tenant
 Service principals are created automatically from app registrations
@@ -99,3 +84,10 @@ User and group assignments control access
 Assignment required setting restricts access
 Enterprise applications manage SSO
 
+
+### Screenshots Included:
+Enterprise applications list
+Enterprise application overview
+Users and groups assignment page
+Assigned group (IAM-Users)
+Single Sign-On options page
