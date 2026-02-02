@@ -9,7 +9,7 @@ To understand how Conditional Access works in Microsoft Entra ID and create a ba
  
  ## Why this lab matters
 Conditional Access is the core enforcement engine of Zero Trust.
-Instead of trusting users by default, access decisions are made dynamically based on identity, risk, and context.
+Instead of trusting users by default, access decisions are made dynamically based on identity, risk, and context. Conditional Access evaluates context such as user, application, and risk at sign-in time to determine whether additional controls, such as MFA, are required.
 
 ## Lab Environment
 
