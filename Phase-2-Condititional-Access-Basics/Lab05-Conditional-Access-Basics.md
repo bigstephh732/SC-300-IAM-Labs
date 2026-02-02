@@ -16,7 +16,6 @@ Instead of trusting users by default, access decisions are made dynamically base
 Microsoft Entra ID (cloud-only tenant)
 Microsoft Entra Admin Center
 Role used: Global Administrator (lab tenant only)
-
 Portal: https://entra.microsoft.com
 
  
