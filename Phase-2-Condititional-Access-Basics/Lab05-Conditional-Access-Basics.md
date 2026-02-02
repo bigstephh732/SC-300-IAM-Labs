@@ -12,6 +12,7 @@ Conditional Access is the core enforcement engine of Zero Trust.
 Instead of trusting users by default, access decisions are made dynamically based on identity, risk, and context.
 
 ## Lab Environment
+
 Microsoft Entra ID (cloud-only tenant)
 Microsoft Entra Admin Center
 Role used: Global Administrator (lab tenant only)
