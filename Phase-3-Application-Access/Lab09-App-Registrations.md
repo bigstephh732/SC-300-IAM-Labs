@@ -85,8 +85,8 @@ API permissions page
 
 
 ### What You Learned
-Applications have identities in Entra ID
-App registrations define application identity
-Apps authenticate using secrets or certificates
-Permissions control what apps can access
+Applications have identities in Entra ID,
+App registrations define application identity,
+Apps authenticate using secrets or certificates,
+Permissions control what apps can access,
 Service principals represent apps in tenants
