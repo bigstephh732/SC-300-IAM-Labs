@@ -82,8 +82,7 @@ Identity Protection feeds risk signals into Conditional Access to enforce automa
 
 
 ### Screenshot Include:
--Identity Protection overview
--Risky sign-ins page
--Risky users page
--Risk policies page
+Identity Protection overview,
+Risky sign-ins page,
+Risky users page, Risk policies page
 
