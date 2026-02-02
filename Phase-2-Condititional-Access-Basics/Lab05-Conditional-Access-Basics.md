@@ -24,12 +24,11 @@ Portal: https://entra.microsoft.com
 
 ## Step 1 — Navigate to Conditional Access
 Go to:
-Entra ID → Protection → Conditional Access
+Entra ID → Conditional Access
 Observe:
 Policies list (likely empty)
 Report-only option
 What-if tool (important later)
-⚠️ Do not create anything yet.
 
 
 ## Step 2 — Understand Conditional Access Logic
