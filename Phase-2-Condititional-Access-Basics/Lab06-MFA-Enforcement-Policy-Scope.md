@@ -123,7 +123,7 @@ Access is allowed or blocked
 -Group-based targeting improves scalability
 -Exclusions prevent administrative lockout
 -Policy scope directly affects access outcomes
-Conditional Access evaluates decisions at sign-in
+-Conditional Access evaluates decisions at sign-in
 
 ### Screenshots Included: These screenshots document feature availability and constraints.
 
