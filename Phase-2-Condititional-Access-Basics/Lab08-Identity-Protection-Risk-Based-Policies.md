@@ -32,8 +32,7 @@ Sign-in risk
 Risk detected during a specific sign-in attempt (e.g., unfamiliar location).
 User risk
 Risk associated with the user account itself (e.g., leaked credentials).
-📘 Exam tip:
-Sign-in risk is event-based; user risk is identity-based.
+*Sign-in risk is event-based; user risk is identity-based.
 
 
 ### Step 3 — Review Risky Sign-Ins
