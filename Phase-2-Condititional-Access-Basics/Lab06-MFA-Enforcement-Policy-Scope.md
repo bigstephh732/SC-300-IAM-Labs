@@ -21,12 +21,15 @@ Microsoft Entra Admin Center
 Role used: Global Administrator (lab environment only)
 Portal: https://entra.microsoft.com
 
+### Lab Constraint (Licensing)
+
+Note: Conditional Access policy creation is restricted in this tenant due to licensing limitations.
+This lab focuses on analysis, comparison, and intended policy design, not enforcement.
+
 
 ### Steps
 
 ### Step 1 — Review Existing Conditional Access Policy
-Navigate to:
-Entra ID → Protection → Conditional Access
 Open your existing policy:
 CA-Require-MFA-for-Lab-Users
 Review:
@@ -36,50 +39,95 @@ Grant: Require MFA
 State: On
 Purpose:
 Confirm baseline MFA enforcement using Conditional Access.
-Step 2 — Understand MFA Enforcement Models
-Understand this clearly:
-❌ Per-user MFA
-Legacy
-Hard to scale
-Limited control
-✅ Conditional Access MFA
-Context-aware
-Group-based
-Microsoft-recommended
-Exam concept:
-Conditional Access evaluates MFA at sign-in, not permanently on the account.
-Step 3 — Add an Exclusion (Admin Safety)
-Edit the policy.
-Under Users:
-Include: IAM-Users
-Exclude: IAM-Admins
-Save changes.
-Purpose:
-Prevents accidental admin lockout and demonstrates least-privilege design.
-Step 4 — Review Policy Scope Impact
+
+### Step 2 Understanding MFA Enforcement Models (Analysis)
+
+### Per-User MFA (Legacy)
+Characteristics:
+	•	Enabled directly on individual users
+	•	Always enforced once enabled
+	•	No context awareness
+
+Limitations:
+	•	Cannot evaluate device state, location, or risk
+	•	Difficult to manage at scale
+	•	Not aligned with Zero Trust principles
+
+###  Conditional Access MFA (Recommended)
+Characteristics:
+	•	Enforced via policies
+	•	Evaluated dynamically at sign-in
+	•	Supports contextual conditions
+
+Benefits:
+	•	Scalable
+	•	Flexible
+	•	Supports Zero Trust architecture
+	•	Microsoft-recommended enforcement method
+
+
+
+## Step3 Intended MFA Policy Design (No Enforcement)
+
+### Policy Name (Design Only)
+
+CA-MFA-Conditional-Enforcement
+
+###  Target Users
+	•	IAM-Users security group
+	•	Administrative accounts excluded (best practice)
+
+(Rationale:
+Group-based targeting simplifies management and reduces risk.)
+
+### Target Applications
+	•	All cloud applications
+
+(Rationale:
+Ensures consistent MFA enforcement across resources.)
+
+### Intended Conditions (Conceptual)
+	•	Sign-in risk: Medium or High
+	•	Access from untrusted locations
+	•	Non-compliant or unmanaged devices
+
+(Rationale:
+MFA should be required when risk is detected, not permanently.)
+
+###  Intended Access Control
+	•	Grant access
+	•	Require multi-factor authentication
+
+
+### Step 4 — Review Policy Scope Impact
 Understand the behavior:
 Users in IAM-Users → MFA required
 Users in IAM-Admins → MFA excluded
 Users outside both groups → Not affected
 This demonstrates policy scope control.
-Step 5 — Review Sign-In Evaluation Logic
+
+
+### Step 5 — Review Sign-In Evaluation Logic
 Understand the Conditional Access flow:
 User attempts sign-in
 Policy scope is evaluated
 Conditions are checked
 Grant controls are enforced
 Access is allowed or blocked
-This logic is tested heavily on SC-300.
-
-
-### Screenshots Included:
-
-
 
 
 ### What You Learned
-MFA should be enforced using Conditional Access
-Group-based targeting simplifies MFA management
-Exclusions prevent administrative lockout
-Policy scope directly affects access outcomes
+
+-Per-user MFA is a legacy enforcement model
+-MFA should be enforced using Conditional Access
+-Group-based targeting improves scalability
+-Exclusions prevent administrative lockout
+-Policy scope directly affects access outcomes
 Conditional Access evaluates decisions at sign-in
+
+### Screenshots Included: These screenshots document feature availability and constraints.
+
+	Per-user MFA settings page
+	•	Conditional Access overview page
+	•	Conditional Access policies page (policy creation disabled)
+	•	Licensing restriction banner
