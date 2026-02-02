@@ -4,7 +4,7 @@
 Phase 2 – Authentication & Conditional Access
 
 ### Goal
-To review Microsoft Entra sign-in logs and understand how to troubleshoot authentication and Conditional Access decisions.
+To review Microsoft Entra sign-in logs in order to understand how to troubleshoot authentication and Conditional Access decisions.
 
 ### Why this lab matters
 In real environments, users don’t say “Conditional Access failed.”
