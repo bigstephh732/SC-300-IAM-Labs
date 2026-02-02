@@ -21,3 +21,58 @@ Portal: https://entra.microsoft.com
 
  
  ### Steps
+
+ ### Step 1 — Navigate to App Registrations
+Go to:
+Entra ID → App registrations
+Review:
+All applications list
+Owned applications tab
+
+
+### Step 2 — Create a New App Registration
+Click New registration and configure:
+Name: Lab-App-Registration
+Supported account types:
+Single tenant (this organizational directory only)
+Redirect URI: Leave blank
+Click Register.
+
+
+### Step 3 — Review Application Overview
+On the app’s Overview page, observe:
+Application (client) ID
+Directory (tenant) ID
+Object ID
+Understand:
+The app registration represents the application’s identity in Entra ID.
+
+
+### Step 4 — Review App Authentication Options
+Navigate to:
+Certificates & secrets
+Observe:
+Client secrets
+Certificates
+⚠️ Do NOT create a secret for this lab.
+Understand:
+Applications authenticate using secrets or certificates, not passwords.
+
+
+### Step 5 — Review API Permissions
+Navigate to:
+API permissions
+Observe:
+Delegated permissions
+Application permissions
+Consent status
+Understand:
+Delegated permissions → App acts on behalf of a user
+Application permissions → App acts independently
+
+
+### Step 6 — Understand Service Principals
+Key concept (exam critical):
+An app registration defines the application.
+A service principal represents the app inside a tenant.
+You’ll see the service principal later in Enterprise Applications (Lab 10).
