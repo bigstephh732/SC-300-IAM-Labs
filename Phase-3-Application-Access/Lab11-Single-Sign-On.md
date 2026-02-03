@@ -40,19 +40,19 @@ Disabled
 
 ### Step 2 — Understand SSO Methods (Exam Critical)
 Understand these clearly:
-SAML
+SAML  
 Claims-based authentication
 Common with enterprise SaaS apps
 Uses certificates
 Browser-based
 
-OAuth 2.0 / OpenID Connect
+OAuth 2.0 / OpenID Connect  
 Token-based authentication
 Modern apps and APIs
 Used with app registrations
 Preferred for new applications
 
-Password-based
+Password-based  
 Stores credentials in Entra
 Least secure
 Legacy apps only
