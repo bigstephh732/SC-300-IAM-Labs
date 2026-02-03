@@ -81,15 +81,15 @@ No manual cleanup required
 This prevents access creep.  
 
 ### What You Learned
-Entitlement Management automates access lifecycle  
-Catalogs organize access resources  
-Access packages bundle permissions  
-Request policies control who gets access  
-Expiration removes access automatically  
+-Entitlement Management automates access lifecycle  
+-Catalogs organize access resources  
+-Access packages bundle permissions  
+-Request policies control who gets access  
+-Expiration removes access automatically  
 
 ### Screenshots Include:
-Entitlement Management overview  
-Catalog created  
-Access package overview  
-Resource roles (IAM-Users group)  
-Assignment policy settings  
+-Entitlement Management overview  
+-Catalog created  
+-Access package overview  
+-Resource roles (IAM-Users group)  
+-Assignment policy settings  
