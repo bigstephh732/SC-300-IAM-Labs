@@ -23,3 +23,63 @@ Microsoft Entra ID (cloud-only tenant)
 Microsoft Entra Admin Center
 Enterprise application created (Lab 10)
 Portal: https://entra.microsoft.com
+
+
+### Steps
+
+### Step 1 — Navigate to Single Sign-On
+Go to:
+Entra ID → Enterprise applications → Lab-App-Registration → Single sign-on
+You’ll see SSO options:
+SAML
+OpenID Connect / OAuth 2.0
+Password-based
+Linked
+Disabled
+
+
+### Step 2 — Understand SSO Methods (Exam Critical)
+Understand these clearly:
+🔹 SAML
+Claims-based authentication
+Common with enterprise SaaS apps
+Uses certificates
+Browser-based
+🔹 OAuth 2.0 / OpenID Connect
+Token-based authentication
+Modern apps and APIs
+Used with app registrations
+Preferred for new applications
+🔹 Password-based
+Stores credentials in Entra
+Least secure
+Legacy apps only
+📘 Exam tip:
+Microsoft prefers OIDC/OAuth over SAML for modern apps.
+
+
+### Step 3 — Review Claims & Attributes (Conceptual)
+If SAML is selected, you’ll see:
+Claims mapping
+Attributes sent to the app
+Understand:
+Claims are how identity information is passed to applications.
+(No configuration required.)
+
+
+### Step 4 — Understand SSO Authentication Flow
+Understand this flow:
+User attempts to access app
+App redirects to Entra ID
+Entra authenticates user
+Token or assertion issued
+App grants access
+This flow is frequently tested.
+
+
+### Step 5 — Review Where SSO Is Controlled
+Key distinction:
+App registrations → Identity & permissions
+Enterprise applications → Access & SSO
+This difference matters on the exam.
+
