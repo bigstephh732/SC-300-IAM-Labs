@@ -9,10 +9,10 @@ To understand Privileged Identity Management (PIM) and configure just-in-time (J
 ### Why this lab matters
 Permanent admin access is one of the biggest security risks.
 PIM:
-Removes always-on admin privileges
-Requires elevation only when needed
-Adds approval, MFA, and auditing
-This is Zero Trust for admins and heavily tested on SC-300.
+Removes always-on admin privileges  
+Requires elevation only when needed  
+Adds approval, MFA, and auditing  
+This is Zero Trust for admins and heavily tested on SC-300.  
 
 
 
@@ -36,13 +36,13 @@ Alerts
 
 
 ### Step 2 — Understand Eligible vs Active Roles (Critical)
-Understand this clearly:
-  Eligible role
-  User can activate the role
-  No permissions until activated
-  Active role
-  User currently has permissions
-  Time-limited
+Understand this clearly:  
+  Eligible role:  
+  User can activate the role  
+  No permissions until activated  
+  Active role:  
+  User currently has permissions  
+  Time-limited  
   *Exam tip:
 PIM replaces permanent admin access.
 
@@ -73,13 +73,13 @@ The role becomes temporarily active.
 
 
 ### Step 5 — Verify Role Activation
-While active:
-lab-admin can manage users
-Role expires automatically
-After expiration:
-Access is removed
-No manual cleanup required
-This is JIT privilege.
+While active:  
+lab-admin can manage users  
+Role expires automatically  
+After expiration:  
+Access is removed  
+No manual cleanup required  
+This is JIT privilege.  
 
 
 ### Step 6 — Review Audit & Security Benefits
