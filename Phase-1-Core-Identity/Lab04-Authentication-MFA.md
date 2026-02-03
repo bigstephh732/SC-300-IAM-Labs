@@ -37,7 +37,7 @@ Review available methods:
 	•	FIDO2 security keys
 	•	Email OTP (for guests)
 
-⚠️ Do NOT disable anything yet.
+*Do NOT disable anything yet.
 
 Purpose:
 Understand which methods Entra supports and how authentication is controlled centrally.
@@ -70,10 +70,10 @@ Used for onboarding users without passwords.
 
 ## Step 4 — Review Authentication Method Policies
 
-Navigate back and observe:
-	•	Each method can be enabled/disabled
-	•	Policies are centrally controlled
-	•	Methods can be targeted by group
+Navigate back and observe:  
+	•	Each method can be enabled/disabled  
+	•	Policies are centrally controlled  
+	•	Methods can be targeted by group  
 
 Understand this concept:
 
@@ -83,15 +83,15 @@ Authentication methods define how users authenticate, not when.
 
 
 ## Step 5 — Review User Authentication Methods
-	1.	Go to Entra ID → Users
-	2.	Select lab-user1
-	3.	Click Authentication methods
+	1.	Go to Entra ID → Users  
+	2.	Select lab-user1  
+	3.	Click Authentication methods  
 
-Observe:
-	•	No MFA registered yet
-	•	Methods are allowed but not enforced
+Observe:  
+	•	No MFA registered yet  
+	•	Methods are allowed but not enforced  
 
-This distinction matters.
+This distinction matters.  
 
 
 ## What You Learned
