@@ -78,16 +78,16 @@ Enterprise applications manage SSO configuration.
 
 
 ### What You Learned
-Enterprise applications represent apps in use within a tenant  
-Service principals are created automatically from app registrations  
-User and group assignments control access  
-Assignment required setting restricts access  
-Enterprise applications manage SSO  
+-Enterprise applications represent apps in use within a tenant  
+-Service principals are created automatically from app registrations  
+-User and group assignments control access  
+-Assignment required setting restricts access  
+-Enterprise applications manage SSO  
 
 
 ### Screenshots Included:  
-Enterprise applications list  
-Enterprise application overview  
-Users and groups assignment page  
-Assigned group (IAM-Users)  
-Single Sign-On options page  
+-Enterprise applications list  
+-Enterprise application overview  
+-Users and groups assignment page  
+-Assigned group (IAM-Users)  
+-Single Sign-On options page  
