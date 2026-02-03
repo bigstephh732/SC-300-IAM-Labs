@@ -95,37 +95,37 @@ MFA significantly reduces the risk of credential-based attacks while maintaining
 	•	Enabled
 
 (Rationale:
-In a production environment, policies may be deployed in report-only mode first.
+In a production environment, policies may be deployed in report-only mode first.  
 For this lab, the intended state is enabled to demonstrate enforcement logic.)
 
 
 ## Step 4 — Review Policy
-Open the policy and confirm:
-Users = IAM-Users
-Apps = All cloud apps
-Grant = Require MFA
-State = On
+Open the policy and confirm:  
+Users = IAM-Users  
+Apps = All cloud apps  
+Grant = Require MFA  
+State = On  
 
 
 ## Step 5 — Understand the Impact
-Now understand clearly:
-Users in IAM-Users must use MFA
-Users NOT in the group are unaffected
-Access decisions are evaluated at sign-in
-This is dynamic security.
+Now understand clearly:  
+Users in IAM-Users must use MFA  
+Users NOT in the group are unaffected  
+Access decisions are evaluated at sign-in  
+This is dynamic security.  
 
 
 ## What You Learned
--Conditional Access evaluates access at sign-in
--Policies are based on conditions and controls
--Group-based targeting is best practice
--MFA can be enforced dynamically
--Conditional Access supports Zero Trust principles
+-Conditional Access evaluates access at sign-in  
+-Policies are based on conditions and controls  
+-Group-based targeting is best practice  
+-MFA can be enforced dynamically  
+-Conditional Access supports Zero Trust principles  
 
 
 ## Screenshots Include:
-Conditional Access Overview page
-Conditional Access policies page (policy creation restricted)
+Conditional Access Overview page  
+Conditional Access policies page (policy creation restricted)  
 
 
 
