@@ -67,7 +67,7 @@ This is a common exam scenario.
 ### Step 6 — Review Single Sign-On (SSO)
 Navigate to:  
 Single sign-on
-Review available options:
+Review available options:  
 SAML  
 OpenID Connect / OAuth  
 Password-based  
