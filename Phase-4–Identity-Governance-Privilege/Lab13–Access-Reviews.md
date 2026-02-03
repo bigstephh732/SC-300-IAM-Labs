@@ -21,3 +21,51 @@ Role used: Global Administrator (lab environment only)
 Portal: https://entra.microsoft.com
 
 
+### Steps
+
+### Step 1 — Navigate to Access Reviews  
+Go to:  
+Entra ID → Identity Governance → Access reviews  
+Click New access review.  
+
+
+### Step 2 — Choose Review Type  
+Select:  
+Teams + Groups  
+Click Next.  
+*Exam note:  
+Access Reviews can target groups, apps, or privileged roles.  
+
+
+### Step 3 — Configure Scope  
+Scope: Selected groups  
+Group: IAM-Users  
+Click Next.  
+
+
+### Step 4 — Reviewers  
+Choose:  
+Self-review  
+(Users review their own access for lab simplicity.)  
+Understand other options:  
+Group owners  
+Selected reviewers  
+
+
+### Step 5 — Review Settings 
+Configure:  
+Duration: 7 days  
+Upon completion: Automatically apply results  
+If reviewers don’t respond: Remove access  
+This demonstrates automated governance.  
+
+
+### Step 6 — Start the Review  
+Review settings and click Create.  
+
+
+### Step 7 — Understand Review Outcomes  
+Possible outcomes:  
+Access approved → retained  
+Access denied or no response → removed  
+This is access cleanup.  
