@@ -87,9 +87,14 @@ This difference matters on the exam.
 
 
 ### What You Learned
-SSO allows users to authenticate once and access multiple apps
-Entra ID supports multiple SSO methods
-OAuth/OIDC is preferred for modern apps
-SAML is common for enterprise SaaS
-SSO is configured in Enterprise Applications
-Claims pass identity information to apps
+SSO allows users to authenticate once and access multiple apps  
+Entra ID supports multiple SSO methods  
+OAuth/OIDC is preferred for modern apps  
+SAML is common for enterprise SaaS  
+SSO is configured in Enterprise Applications  
+Claims pass identity information to apps  
+
+
+### Screenshots Included:
+-SSO Options  
+-SSO-Claims
