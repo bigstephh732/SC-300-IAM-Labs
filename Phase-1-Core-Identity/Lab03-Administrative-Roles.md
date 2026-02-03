@@ -50,12 +50,12 @@ Entra ID → Roles & administrators → User Administrator
 	3.	Choose lab-admin
 	4.	Assign role
 
-✅ This role allows:
+ This role allows:
 	•	Create users
 	•	Reset passwords
 	•	Manage groups
 
-❌ It cannot:
+ It cannot:
 	•	Change Conditional Access
 	•	Assign Global Admin
 	•	Modify security policies
@@ -87,10 +87,10 @@ For now:
 
 ## Step 5 — Review Why Least Privilege Matters
 
-Understand clearly:
-	•	Users should only have permissions they need
-	•	Admin access should be temporary when possible
-	•	Roles reduce blast radius during compromise
+Understand clearly:  
+	•	Users should only have permissions they need  
+	•	Admin access should be temporary when possible  
+	•	Roles reduce blast radius during compromise  
 
 This is security fundamentals.
 
