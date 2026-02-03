@@ -29,7 +29,7 @@ Portal: https://entra.microsoft.com
 
 ### Step 1 — Navigate to Single Sign-On
 Go to:
-Entra ID → Enterprise applications → Lab-App-Registration → Single sign-on
+Entra ID → Enterprise applications → Lab-App-Registration → Single sign-on  
 You’ll see SSO options:
 SAML
 OpenID Connect / OAuth 2.0
@@ -39,7 +39,6 @@ Disabled
 
 
 ### Step 2 — Understand SSO Methods (Exam Critical)
-Understand these clearly:
 SAML  
 Claims-based authentication
 Common with enterprise SaaS apps
@@ -86,3 +85,11 @@ App registrations → Identity & permissions
 Enterprise applications → Access & SSO
 This difference matters on the exam.
 
+
+### What You Learned
+SSO allows users to authenticate once and access multiple apps
+Entra ID supports multiple SSO methods
+OAuth/OIDC is preferred for modern apps
+SAML is common for enterprise SaaS
+SSO is configured in Enterprise Applications
+Claims pass identity information to apps
