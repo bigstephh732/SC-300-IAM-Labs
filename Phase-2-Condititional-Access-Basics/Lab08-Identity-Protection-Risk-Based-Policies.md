@@ -37,52 +37,52 @@ Risk associated with the user account itself (e.g., leaked credentials).
 
 ### Step 3 — Review Risky Sign-Ins
 Navigate to:
-Identity Protection → Risky sign-ins
+Identity Protection → Risky sign-ins  
 Observe:
-Risk level (Low, Medium, High)
+Risk level (Low, Medium, High)  
 Detection type
 Status
-Even if empty, understand what would appear here in production.
+Even if empty, understand what would appear here in production.  
 
 
 ### Step 4 — Review Risky Users
-Navigate to:
-Identity Protection → Risky users
-Observe:
-User risk level
-Risk state
-Remediation status
-Understand:
+Navigate to:  
+Identity Protection → Risky users  
+Observe:  
+User risk level  
+Risk state  
+Remediation status  
+Understand:  
 User risk can persist across multiple sign-ins.
 
 
-### Step 5 — Review Risk Policies
-Navigate to:
-Identity Protection → Risk policies
-Review default or available policies, such as:
-Sign-in risk policy
-User risk policy
-Understand typical actions:
-Require MFA,
-Require password change,
-Block access
+### Step 5 — Review Risk Policies  
+Navigate to:  
+Identity Protection → Risk policies  
+Review default or available policies, such as:  
+Sign-in risk policy  
+User risk policy  
+Understand typical actions:  
+Require MFA,  
+Require password change,  
+Block access  
 
 
 ### Step 6 — Understand Identity Protection Integration
-Key concept:
-Identity Protection feeds risk signals into Conditional Access to enforce automated security responses.
-*This is a core Zero Trust principle.
+Key concept:  
+Identity Protection feeds risk signals into Conditional Access to enforce automated security responses.  
+*This is a core Zero Trust principle.  
 
 ### What You Learned
--Identity Protection detects risky behavior automatically
--Difference between sign-in risk and user risk
--Risk levels influence access decisions
--Risk policies automate responses
--Identity Protection integrates with Conditional Access
+-Identity Protection detects risky behavior automatically  
+-Difference between sign-in risk and user risk  
+-Risk levels influence access decisions  
+-Risk policies automate responses  
+-Identity Protection integrates with Conditional Access  
 
 
 ### Screenshot Include:
-Identity Protection overview,
-Risky sign-ins page,
-Risky users page, Risk policies page
+-Identity Protection overview,  
+-Risky sign-ins page,  
+-Risky users page, Risk policies page  
 
