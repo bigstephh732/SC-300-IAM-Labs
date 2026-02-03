@@ -69,3 +69,10 @@ Possible outcomes:
 Access approved → retained  
 Access denied or no response → removed  
 This is access cleanup.  
+
+### Screenshots Include:  
+Access reviews overview  
+New access review configuration  
+Group selection screen  
+Review settings  
+Active access review  
