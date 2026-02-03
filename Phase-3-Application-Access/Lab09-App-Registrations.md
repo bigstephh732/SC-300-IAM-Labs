@@ -78,9 +78,9 @@ A service principal represents the app inside a tenant.
 
 
 ### Screenshots Include:
-App registrations list
-App overview page
-Certificates & secrets page
+App registrations list,
+App overview page,
+Certificates & secrets page,
 API permissions page
 
 
