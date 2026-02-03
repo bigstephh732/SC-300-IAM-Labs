@@ -49,13 +49,13 @@ The app registration represents the application’s identity in Entra ID.
 
 
 ### Step 4 — Review App Authentication Options
-Navigate to:
-Certificates & secrets
+Navigate to:  
+Certificates & secrets  
 Observe:
-Client secrets
-Certificates
-⚠️ Do NOT create a secret for this lab.
-Understand:
+Client secrets  
+Certificates  
+*Do NOT create a secret for this lab.  
+Understand:  
 Applications authenticate using secrets or certificates, not passwords.
 
 
@@ -72,21 +72,21 @@ Application permissions → App acts independently
 
 
 ### Step 6 — Understand Service Principals
-Key concept (exam critical):
-An app registration defines the application.
-A service principal represents the app inside a tenant.
+Key concept (exam critical):  
+An app registration defines the application.  
+A service principal represents the app inside a tenant.  
 
 
 ### Screenshots Include:
-App registrations list,
-App overview page,
-Certificates & secrets page,
-API permissions page
+App registrations list,  
+App overview page,  
+Certificates & secrets page,  
+API permissions page  
 
 
 ### What You Learned
-Applications have identities in Entra ID,
-App registrations define application identity,
-Apps authenticate using secrets or certificates,
-Permissions control what apps can access,
-Service principals represent apps in tenants
+-Applications have identities in Entra ID,  
+-App registrations define application identity,  
+-Apps authenticate using secrets or certificates,  
+-Permissions control what apps can access,  
+-Service principals represent apps in tenants  
