@@ -6,9 +6,7 @@ This repository documents my hands-on labs for the Microsoft SC-300: Identity an
 
 The purpose of this project is to demonstrate practical experience with Microsoft Entra ID (formerly Azure Active Directory), including identity management, authentication, access control, application integration, and identity governance.
 
-All labs are completed in a dedicated Microsoft Entra tenant and documented with screenshots, explanations, and interview-ready talking points.
-
-
+All labs are completed in a dedicated Microsoft Entra tenant and documented with screenshots and explanations.
 
 ## Skills Demonstrated
 	•	Identity and access management (IAM)
@@ -21,8 +19,6 @@ All labs are completed in a dedicated Microsoft Entra tenant and documented with
 	•	Identity governance and access reviews
 	•	Security best practices and least privilege
 
-
-
 ## Lab Environment
 	•	Microsoft Entra ID (cloud-only tenant)
 	•	Microsoft Entra Admin Center
@@ -32,36 +28,33 @@ All labs are completed in a dedicated Microsoft Entra tenant and documented with
 
 ## Lab Phases
 
-Phase 1 – Core Identity
+### Phase 1 – Core Identity
 	•	Entra ID orientation
 	•	Users and groups
 	•	Administrative roles
 	•	Authentication methods
 
-Phase 2 – Authentication & Access
+### Phase 2 – Authentication & Access
 	•	Conditional Access
 	•	MFA enforcement
 	•	Sign-in risk policies
 
-Phase 3 – Application Access
+### Phase 3 – Application Access
 	•	App registrations
 	•	Enterprise applications
 	•	SSO configuration
 	•	Consent management
 
-Phase 4 – Identity Governance
+### Phase 4 – Identity Governance
 	•	Privileged Identity Management (PIM)
 	•	Access reviews
 	•	Entitlement management
 	•	Lifecycle workflows
 
 
-
 ## Certification Alignment
 
 This project aligns with the official Microsoft SC-300 exam objectives and focuses on hands-on implementation rather than memorization.
-
-
 
 ## Career Relevance
 
@@ -72,12 +65,9 @@ These labs reflect real-world IAM responsibilities used by:
 	•	Cloud security engineers
 	•	SOC and IAM hybrid roles
 
-
-
 ## Disclaimer
 
 All labs are performed in a non-production test tenant created solely for learning purposes.
-
 
 
 ## Author
